@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Grzegorz Zieliński</Authors>
+    <Copyright>Copyright © 2020 Grzegorz Zieliński</Copyright>
+    <LangVersion>latest</LangVersion>
+    
+    <Version>0.1.1</Version>
+    <InformationalVersion>$(Version) | $(Copyright)</InformationalVersion>
+  </PropertyGroup>
+</Project>

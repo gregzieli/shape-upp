@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98122BC9-2342-453D-A763-4EC244389A10}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D956B462-D5B1-4EE4-8C7D-E9EC3CAE1534}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5D1A69F-915B-486A-AB5B-7317AC2DFF16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeUpp.Api", "src\ShapeUpp.Api\ShapeUpp.Api.csproj", "{D18ACDE8-382A-4A09-8F39-5B49FBB77EA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeUpp.Domain", "src\ShapeUpp.Domain\ShapeUpp.Domain.csproj", "{FC2A5F87-A127-4CF7-9EBD-62877191C875}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeUpp.Infrastructure", "src\ShapeUpp.Infrastructure\ShapeUpp.Infrastructure.csproj", "{342B367B-946D-44A6-9831-AF9543CCA56C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D18ACDE8-382A-4A09-8F39-5B49FBB77EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18ACDE8-382A-4A09-8F39-5B49FBB77EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18ACDE8-382A-4A09-8F39-5B49FBB77EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18ACDE8-382A-4A09-8F39-5B49FBB77EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2A5F87-A127-4CF7-9EBD-62877191C875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2A5F87-A127-4CF7-9EBD-62877191C875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2A5F87-A127-4CF7-9EBD-62877191C875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2A5F87-A127-4CF7-9EBD-62877191C875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342B367B-946D-44A6-9831-AF9543CCA56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342B367B-946D-44A6-9831-AF9543CCA56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342B367B-946D-44A6-9831-AF9543CCA56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342B367B-946D-44A6-9831-AF9543CCA56C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D18ACDE8-382A-4A09-8F39-5B49FBB77EA0} = {D5D1A69F-915B-486A-AB5B-7317AC2DFF16}
+		{FC2A5F87-A127-4CF7-9EBD-62877191C875} = {D5D1A69F-915B-486A-AB5B-7317AC2DFF16}
+		{342B367B-946D-44A6-9831-AF9543CCA56C} = {D5D1A69F-915B-486A-AB5B-7317AC2DFF16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA28CC93-BF8C-42B0-BB21-332E9226A1B0}
+	EndGlobalSection
+EndGlobal
